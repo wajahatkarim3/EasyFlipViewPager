@@ -42,7 +42,7 @@ public class BookFlipPageTransformer implements ViewPager.PageTransformer {
     private void flipPage(View page, float position, float percentage)
     {
         // Flip this page
-        page.setCameraDistance(-20000);
+        page.setCameraDistance(-12000);
         setVisibility(page, position);
         setTranslation(page);
         setPivot(page, 0f, page.getHeight() * 0.5f);
