@@ -13,17 +13,17 @@ import android.view.View;
  *
  * @author Wajahat Karim (http://wajahatkarim.com)
  */
-public class CardFlipPageTransformer implements ViewPager.PageTransformer {
+public class CardFlipPageTransformer implements ViewPager.PageTransformer
+{
+    public final static int HORIZONTAL = 1;
+    public final static int VERTICAL = 2;
 
     private boolean scalable = true;
-
-    public CardFlipPageTransformer(boolean enableScaling)
-    {
-        scalable = enableScaling;
-    }
+    private int flipOrientation = VERTICAL;
 
     @Override
-    public void transformPage(View page, float position) {
+    public void transformPage(View page, float position)
+    {
         float percentage = 1 - Math.abs(position);
         page.setCameraDistance(12000);
         setVisibility(page, position);
@@ -32,7 +32,8 @@ public class CardFlipPageTransformer implements ViewPager.PageTransformer {
         setRotation(page, position, percentage);
     }
 
-    private void setVisibility(View page, float position) {
+    private void setVisibility(View page, float position)
+    {
         if (position < 0.5 && position > -0.5) {
             page.setVisibility(View.VISIBLE);
         } else {
@@ -40,13 +41,15 @@ public class CardFlipPageTransformer implements ViewPager.PageTransformer {
         }
     }
 
-    private void setTranslation(View page) {
+    private void setTranslation(View page)
+    {
         ViewPager viewPager = (ViewPager) page.getParent();
         int scroll = viewPager.getScrollX() - page.getLeft();
         page.setTranslationX(scroll);
     }
 
-    private void setSize(View page, float position, float percentage) {
+    private void setSize(View page, float position, float percentage)
+    {
         // Do nothing, if its not scalable
         if (!scalable) return;
 
@@ -54,11 +57,23 @@ public class CardFlipPageTransformer implements ViewPager.PageTransformer {
         page.setScaleY((position != 0 && position != 1) ? percentage : 1);
     }
 
-    private void setRotation(View page, float position, float percentage) {
-        if (position > 0) {
-            page.setRotationY(-180 * (percentage + 1));
-        } else {
-            page.setRotationY(180 * (percentage + 1));
+    private void setRotation(View page, float position, float percentage)
+    {
+        if (flipOrientation == VERTICAL)
+        {
+            if (position > 0) {
+                page.setRotationY(-180 * (percentage + 1));
+            } else {
+                page.setRotationY(180 * (percentage + 1));
+            }
+        }
+        else
+        {
+            if (position > 0) {
+                page.setRotationX(-180 * (percentage + 1));
+            } else {
+                page.setRotationX(180 * (percentage + 1));
+            }
         }
     }
 
@@ -68,5 +83,17 @@ public class CardFlipPageTransformer implements ViewPager.PageTransformer {
 
     public void setScalable(boolean scalable) {
         this.scalable = scalable;
+    }
+
+    public int getFlipOrientation() {
+        return flipOrientation;
+    }
+
+    /**
+     * Sets the Flip Orientation. Can be either CardFlipPageTransformer.HORIZONTAL or CardFlipPageTransformer.VERTICAL
+     * @param flipOrientation Can be either CardFlipPageTransformer.HORIZONTAL or CardFlipPageTransformer.VERTICAL
+     */
+    public void setFlipOrientation(int flipOrientation) {
+        this.flipOrientation = flipOrientation > 1 ? VERTICAL : HORIZONTAL;
     }
 }
