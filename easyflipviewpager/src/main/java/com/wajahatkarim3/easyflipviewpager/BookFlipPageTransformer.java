@@ -2,6 +2,7 @@ package com.wajahatkarim3.easyflipviewpager;
 
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -19,6 +20,8 @@ public class BookFlipPageTransformer implements ViewPager.PageTransformer {
     private final int LEFT = -1;
     private final int RIGHT = 1;
     private final int CENTER = 0;
+    private float scaleAmountPercent = 5f;
+    private boolean enableScale = true;
 
     @Override
     public void transformPage(@NonNull View page, float position) {
@@ -30,6 +33,11 @@ public class BookFlipPageTransformer implements ViewPager.PageTransformer {
             page.setTranslationX(-position * (page.getWidth()));
             page.setTranslationY(0);
             page.setRotation(0);
+            if (enableScale)
+            {
+                float amount = ((100 - scaleAmountPercent) + ( scaleAmountPercent * percentage)) / 100;
+                setSize(page, position, amount);
+            }
         }
         // Otherwise flip the current page
         else
@@ -80,5 +88,21 @@ public class BookFlipPageTransformer implements ViewPager.PageTransformer {
         } else {
             page.setRotationY(180 * (percentage + 1));
         }
+    }
+
+    public float getScaleAmountPercent() {
+        return scaleAmountPercent;
+    }
+
+    public void setScaleAmountPercent(float scaleAmountPercent) {
+        this.scaleAmountPercent = scaleAmountPercent;
+    }
+
+    public boolean isEnableScale() {
+        return enableScale;
+    }
+
+    public void setEnableScale(boolean enableScale) {
+        this.enableScale = enableScale;
     }
 }
