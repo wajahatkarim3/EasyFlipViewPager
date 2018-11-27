@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-     android:paddingTop="15dp"
-     android:paddingLeft="14dp"
-     android:paddingBottom="26dp"
-     android:paddingRight="24dp">
+    android:paddingLeft="14dp"
+    android:paddingTop="15dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="26dp">
 
     <TextView
         android:id="@+id/textView"

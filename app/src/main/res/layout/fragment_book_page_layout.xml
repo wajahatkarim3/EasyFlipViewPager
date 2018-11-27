@@ -4,15 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginBottom="26dp"
     android:background="@android:color/white">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.5"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
@@ -20,21 +25,19 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="27dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="All About Reading"
         android:textColor="#383838"
-        android:textStyle="bold"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <TextView
         android:id="@+id/textView3"
@@ -44,12 +47,21 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="16dp"
-        android:textSize="13sp"
-        android:textColor="#999999"
+        android:layout_marginBottom="8dp"
         android:text="Everyone love reading books"
+        android:textColor="#999999"
+        android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
 
 </android.support.constraint.ConstraintLayout>
