@@ -27,7 +27,6 @@ public class BookFlipPageTransformer implements ViewPager.PageTransformer {
         if (position > CENTER && position <= RIGHT)
         {
             // This is behind page
-            page.setVisibility(View.VISIBLE);
             page.setTranslationX(-position * (page.getWidth()));
             page.setTranslationY(0);
             page.setRotation(0);
@@ -35,6 +34,7 @@ public class BookFlipPageTransformer implements ViewPager.PageTransformer {
         // Otherwise flip the current page
         else
         {
+            page.setVisibility(View.VISIBLE);
             flipPage(page, position, percentage);
         }
     }
