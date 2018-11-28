@@ -34,9 +34,9 @@ class BookOnboardingActivity : AppCompatActivity() {
 
         constructor(fm: FragmentManager) : super(fm)
         {
-            val titles = arrayOf("All About Reading", "Pick Your Books", "Find Your Love", "Enjoy Your Time")
-            val subtitles = arrayOf("Everyone love reading books", "All books in your library", "Books are our best friends", "All set and get started now")
-            val imageIds = intArrayOf(R.drawable.all_about_reading, R.drawable.pick_your_books, R.drawable.find_your_love, R.drawable.enjoy_your_time)
+            val titles = arrayOf("All About Reading", "Find Your Love", "Pick Your Books", "Enjoy Your Time")
+            val subtitles = arrayOf("Everyone love reading books", "All books in your library", "Books are your best friends", "All set and get started now")
+            val imageIds = intArrayOf(R.drawable.all_about_reading, R.drawable.find_your_love, R.drawable.pick_your_books, R.drawable.enjoy_your_time)
 
             for (i in 0..3)
             {

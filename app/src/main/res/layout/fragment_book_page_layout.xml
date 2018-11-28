@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="20dp"
-    android:paddingTop="17dp"
+    android:paddingTop="19dp"
     android:paddingRight="28dp"
-    android:paddingBottom="30dp">
+    android:paddingBottom="35dp">
 
     <View
         android:id="@+id/view"
