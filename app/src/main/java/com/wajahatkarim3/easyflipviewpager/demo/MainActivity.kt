@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
         mPager.adapter = mPagerAdapter
         mPager.clipToPadding = false
         var transformer = CardFlipPageTransformer()
-        transformer.flipOrientation = CardFlipPageTransformer.HORIZONTAL
-        transformer.isScalable = true
-        mPager.setPageTransformer(true, BookFlipPageTransformer())
+        transformer.flipOrientation = CardFlipPageTransformer.VERTICAL
+        transformer.isScalable = false
+        mPager.setPageTransformer(true, transformer)
     }
 }
