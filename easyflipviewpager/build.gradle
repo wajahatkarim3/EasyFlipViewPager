@@ -1,9 +1,34 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+ext {
+
+    bintrayRepo = "EasyFlipViewPager"
+    bintrayName = "com.wajahatkarim3.easyflipviewpager"
+
+    publishedGroupId = 'com.wajahatkarim3.easyflipviewpager'
+    libraryName = 'easyflipviewpager'
+    artifact = 'easyflipviewpager'
+
+    libraryVersion = '1.0.0'
+
+    libraryDescription = 'The library for creating book and card flip animations in ViewPager in Android'
+
+    siteUrl = 'https://github.com/wajahatkarim3/EasyFlipViewPager'
+    gitUrl = 'https://github.com/wajahatkarim3/EasyFlipViewPager.git'
+
+    developerId = 'wajahatkarim3'
+    developerName = 'Wajahat Karim'
+    developerEmail = 'wajahatkarim3@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 28
-
-
 
     defaultConfig {
         minSdkVersion 15
@@ -31,4 +56,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+//Add these lines to publish library to bintray. This is the ready-made scripts to make uploading to bintray easy.
+//Place it at the end of the file
+if (project.rootProject.file('local.properties').exists()) {
+    apply from: 'https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle'
+    apply from: 'https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle'
 }
