@@ -69,6 +69,9 @@
         
 <br/>
 
+## Demo Video
+[![Alt text](https://img.youtube.com/vi/ibuHv06wdhs/0.jpg)](https://www.youtube.com/watch?v=ibuHv06wdhs)
+
 ## 💻 Installation
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 
