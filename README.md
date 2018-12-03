@@ -1,4 +1,4 @@
-<div align="center"><img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/easyflipviewpager_logo.png"/></dev>
+<div align="center"><img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/easyflipviewpager_logo.png"/></div>
 <h2 align="center"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fwajahatkarim3%2FEasyFlipViewPager&text=Create%20amazing%20book%20or%20card%20flipping%20animations%20for%20your%20ViewPager%20in%20Android%20with%20these%202-lines%20of%20code%20through%20EasyFlipViewPager&hashtags=android%2C%20kotlin%2C%20java%2C%20opensource%2C%20programming">
         <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"/>
     </a></h2>
@@ -61,7 +61,6 @@
     contributors
   </a>
 </div>
-        <p></p>
 <br/>
 <br/>
 
