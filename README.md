@@ -1,4 +1,4 @@
-<div align="center">![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/easyflipviewpager_logo.png)</dev>
+<div align="center"><img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/easyflipviewpager_logo.png"/></dev>
 
 
 <h1 align="center"><a href="https://twitter.com/intent/tweet?text=Quickly%20and%20easily%20validate%20your%20text%20and%20input%20in%20Android%20apps%20with%20this%20amazing%20library%20EasyValidation%20written%20in%20entirely%20in%20kotlin.:&url=https%3A%2F%2Fgithub.com%2Fwajahatkarim3%2FEasyValidation">
