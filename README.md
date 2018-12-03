@@ -63,3 +63,10 @@
 </div>
 <br/>
 <br/>
+
+## 💻 Installation
+Add `EasyFlipViewPager` in app's ```build.gradle``` file:
+
+```groovy
+   implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.0.0'
+```
