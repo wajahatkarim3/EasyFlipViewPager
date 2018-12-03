@@ -7,7 +7,7 @@
 <div align="center">
     <!-- AppCenter -->
     <a href="https://appcenter.ms">
-        <img src="https://build.appcenter.ms/v0.1/apps/ffd5a8a1-b026-4466-9480-787e049f2f7a/branches/master/badge"/>
+        <img src="https://build.appcenter.ms/v0.1/apps/5776861f-efe6-4d09-bee7-5e60bbd176f3/branches/master/badge"/>
     </a>    
     <!-- Bintray -->
     <a href='https://bintray.com/wajahatkarim3/EasyFlipViewPager/com.wajahatkarim3.easyflipviewpager/_latestVersion'><img src='https://api.bintray.com/packages/wajahatkarim3/EasyFlipViewPager/com.wajahatkarim3.easyflipviewpager/images/download.svg'></a>
