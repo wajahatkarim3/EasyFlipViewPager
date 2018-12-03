@@ -8,31 +8,32 @@
     <!-- AppCenter -->
     <a href="https://appcenter.ms">
         <img src="https://build.appcenter.ms/v0.1/apps/5776861f-efe6-4d09-bee7-5e60bbd176f3/branches/master/badge"/>
-    </a>    
+    </a>
     <!-- Bintray -->
     <a href='https://bintray.com/wajahatkarim3/EasyFlipViewPager/com.wajahatkarim3.easyflipviewpager/_latestVersion'><img src='https://api.bintray.com/packages/wajahatkarim3/EasyFlipViewPager/com.wajahatkarim3.easyflipviewpager/images/download.svg'></a>
     </a>
-    <!-- Arsenal -->
+    <!-- Arsenal 
     <a href="https://android-arsenal.com/details/1/7109">
         <img src="https://img.shields.io/badge/Android%20Arsenal-Easy%20Validation-brightgreen.svg?style=flat"/>
-    </a>    
+    </a>    -->
     <!-- API -->
     <a href="https://android-arsenal.com/api?level=14">
         <img src="https://img.shields.io/badge/API-14%2B-orange.svg?style=flat"/>
     </a>
+    <!-- PRs Welcome -->
     <a href="">
         <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
     </a>
     <!-- GitHub stars 
-    <a href="https://github.com/wajahatkarim3/EasyValidation">
+    <a href="https://github.com/wajahatkarim3/EasyFlipViewPager">
         <img src="https://img.shields.io/github/stars/nisrulz/validatetor.svg?style=social&label=Star"/>
     </a> -->
     <!-- GitHub forks 
-    <a href="https://github.com/nisrulz/validatetor/fork">
+    <a href="https://github.com/wajahatkarim3/EasyFlipViewPager/fork">
         <img src="https://img.shields.io/github/forks/nisrulz/validatetor.svg?style=social&label=Fork"/>
     </a> -->
     <!-- GitHub watchers 
-    <a href="https://github.com/nisrulz/validatetor">
+    <a href="https://github.com/wajahatkarim3/EasyFlipViewPager">
         <img src="https://img.shields.io/github/watchers/nisrulz/validatetor.svg?style=social&label=Watch"/>
     </a> -->
     <!-- Say Thanks! -->
@@ -44,11 +45,11 @@
     </a>
     <br/>
      <!-- GitHub followers 
-    <a href="https://github.com/nisrulz/validatetor">
+    <a href="https://github.com/wajahatkarim3/EasyFlipViewPager">
         <img src="https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow%20@nisrulz"/>
     </a> -->
     <!-- Twitter Follow 
-    <a href="https://twitter.com/nisrulz">
+    <a href="https://twitter.com/WajahatKarim">
         <img src="https://img.shields.io/twitter/follow/nisrulz.svg?style=social"/>
     </a> -->
 </div>
@@ -56,7 +57,7 @@
 <div align="center">
   <sub>Built with ❤︎ by
   <a href="https://twitter.com/WajahatKarim">Wajahat Karim</a> and
-  <a href="https://github.com/wajahatkarim3/EasyValidation/graphs/contributors">
+  <a href="https://github.com/wajahatkarim3/EasyFlipViewPager/graphs/contributors">
     contributors
   </a>
 </div>
