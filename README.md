@@ -63,7 +63,7 @@
 </div>
 <br/>
 
-![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif?v=4&s=200)  |  ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif?v=4&s=200) | ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif?v=4&s=200)
+![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif?v=4&s=150)  |  ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif?v=4&s=150) | ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif?v=4&s=150)
         
 <br/>
 
