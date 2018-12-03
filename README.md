@@ -64,7 +64,7 @@
 <br/>
 
 <div>
-        <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif" width="750px" height="300px"/> <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif" width="750px" height="300px"/> <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif" width="750px" height="300px"/>
+        <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif" width="300px" /> <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif" width="300px" /> <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif" width="300px" />
 </div>
         
 <br/>
