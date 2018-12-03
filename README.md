@@ -78,3 +78,12 @@ Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 ```groovy
    implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.0.0'
 ```
+Or add `EasyFlipViewPager` as a new dependency inside your `pom.xml`
+```xml
+<dependency>
+  <groupId>com.wajahatkarim3.easyflipviewpager</groupId>
+  <artifactId>easyflipviewpager</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
