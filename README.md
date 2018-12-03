@@ -92,20 +92,20 @@ Just create an object of either [`BookFlipPageTransformer`](https://github.com/w
 
 ### Card Flip Example
 ```java
-        myViewPager = findViewById(R.id.myViewPager);
-        pagerAdapter = new MyPagerAdapter(this);
-        myViewPager.setAdapter(pagerAdapter);
+myViewPager = findViewById(R.id.myViewPager);
+pagerAdapter = new MyPagerAdapter(this);
+myViewPager.setAdapter(pagerAdapter);
 
-        // Create an object of page transformer
-        CardFlipPageTransformer cardFlipPageTransformer = new CardFlipPageTransformer();
-        
-        // Enable / Disable scaling while flipping. If false, then card will only flip as in Poker card example. 
-        // Otherwise card will also scale like in Gallery demo. By default, its true.
-        cardFlipPageTransformer.setScalable(false);
-        
-        // Set orientation. Either horizontal or vertical. By default, its vertical.
-        cardFlipPageTransformer.setFlipOrientation(CardFlipPageTransformer.VERTICAL);
-        
-        // Assign the page transformer to the ViewPager.
-        myViewPager.setPageTransformer(true, cardFlipPageTransformer);
+// Create an object of page transformer
+CardFlipPageTransformer cardFlipPageTransformer = new CardFlipPageTransformer();
+
+// Enable / Disable scaling while flipping. If false, then card will only flip as in Poker card example. 
+// Otherwise card will also scale like in Gallery demo. By default, its true.
+cardFlipPageTransformer.setScalable(false);
+
+// Set orientation. Either horizontal or vertical. By default, its vertical.
+cardFlipPageTransformer.setFlipOrientation(CardFlipPageTransformer.VERTICAL);
+
+// Assign the page transformer to the ViewPager.
+myViewPager.setPageTransformer(true, cardFlipPageTransformer);
 ```
