@@ -69,8 +69,8 @@
         
 <br/>
 
-## 📖 Demo Video
-[![Alt text](https://img.youtube.com/vi/ibuHv06wdhs/0.jpg)](https://www.youtube.com/watch?v=ibuHv06wdhs)
+## 📖 Full Demo Video
+[![Demo Video](https://img.youtube.com/vi/ibuHv06wdhs/0.jpg)](https://www.youtube.com/watch?v=ibuHv06wdhs)
 
 ## 💻 Installation
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
@@ -86,4 +86,26 @@ Or add `EasyFlipViewPager` as a new dependency inside your `pom.xml`
   <version>1.0.0</version>
   <type>pom</type>
 </dependency>
+```
+## Usage
+Just create an object of either [`BookFlipPageTransformer`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/BookFlipPageTransformer.java) or [`CardFlipPageTransformer`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/CardFlipPageTransformer.java) and assign it to your `ViewPager` object by calling `ViewPager#setPageTransformer(true, myTransformerObject)`.
+
+### Card Flip Example
+```java
+        myViewPager = findViewById(R.id.myViewPager);
+        pagerAdapter = new MyPagerAdapter(this);
+        myViewPager.setAdapter(pagerAdapter);
+
+        // Create an object of page transformer
+        CardFlipPageTransformer cardFlipPageTransformer = new CardFlipPageTransformer();
+        
+        // Enable / Disable scaling while flipping. If false, then card will only flip as in Poker card example. 
+        // Otherwise card will also scale like in Gallery demo. By default, its true.
+        cardFlipPageTransformer.setScalable(false);
+        
+        // Set orientation. Either horizontal or vertical. By default, its vertical.
+        cardFlipPageTransformer.setFlipOrientation(CardFlipPageTransformer.VERTICAL);
+        
+        // Assign the page transformer to the ViewPager.
+        myViewPager.setPageTransformer(true, cardFlipPageTransformer);
 ```
