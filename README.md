@@ -72,6 +72,9 @@
 ## 📖 Full Demo Video
 [![Demo Video](https://img.youtube.com/vi/ibuHv06wdhs/0.jpg)](https://www.youtube.com/watch?v=ibuHv06wdhs)
 
+## 📱 Download Demo on Android
+Download the [APK file from here](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/EasyFlipViewPager-Demo.apk?raw=true) on your Android phone and enjoy the Demo App :)
+
 ## 💻 Installation
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 
