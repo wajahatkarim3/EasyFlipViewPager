@@ -64,17 +64,7 @@
 <br/>
 
 <div align="center">
-         <figure>
-  <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif" width="280px" />
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-</figure> <figure>
-  <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif" width="280px" />
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-</figure> <figure>
-  <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif" width="280px" />
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-</figure> 
-          
+  <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif" width="280px" /> <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif" width="280px" /> <img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif" width="280px" />
 </div>
         
 <br/>
