@@ -87,11 +87,13 @@ Or add `EasyFlipViewPager` as a new dependency inside your `pom.xml`
   <type>pom</type>
 </dependency>
 ```
-## Usage
+## ❓ Usage
 Just create an object of either [`BookFlipPageTransformer`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/BookFlipPageTransformer.java) or [`CardFlipPageTransformer`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/CardFlipPageTransformer.java) and assign it to your `ViewPager` object by calling `ViewPager#setPageTransformer(true, myTransformerObject)`.
 
-### Card Flip Example
+
+### 💳 Card Flip Example
 ```java
+// Get ViewPager and Set Adapter
 myViewPager = findViewById(R.id.myViewPager);
 pagerAdapter = new MyPagerAdapter(this);
 myViewPager.setAdapter(pagerAdapter);
@@ -108,4 +110,24 @@ cardFlipPageTransformer.setFlipOrientation(CardFlipPageTransformer.VERTICAL);
 
 // Assign the page transformer to the ViewPager.
 myViewPager.setPageTransformer(true, cardFlipPageTransformer);
+```
+
+### 📄 Book Flip Example
+```java
+// Get ViewPager and Set Adapter        
+myViewPager = findViewById(R.id.myViewPager);
+pagerAdapter = new MyPagerAdapter(this);
+myViewPager.setAdapter(pagerAdapter);
+
+// Create an object of page transformer
+BookFlipPageTransformer bookFlipPageTransformer = new BookFlipPageTransformer();
+
+// Enable / Disable scaling while flipping. If true, then next page will scale in (zoom in). By default, its true.
+bookFlipPageTransformer.setEnableScale(true);
+
+// The amount of scale the page will zoom. By default, its 5 percent.
+bookFlipPageTransformer.setScaleAmountPercent(10f);
+
+// Assign the page transformer to the ViewPager.
+myViewPager.setPageTransformer(true, bookFlipPageTransformer);
 ```
