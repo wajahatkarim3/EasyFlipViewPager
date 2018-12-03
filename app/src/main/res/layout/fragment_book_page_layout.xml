@@ -73,15 +73,4 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.70" />
 
-    <net.alexandroid.utils.indicators.IndicatorsView
-        android:id="@+id/indicatorsView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:indicatorSize="10dp"
-        app:paddingBetweenIndicators="1dp"
-        app:selectedDrawable="@drawable/selected_line"
-        app:unSelectedDrawable="@drawable/default_line"
-        app:numberOfIndicators="10"
-        app:selectedIndicator="5"/>
-
 </android.support.constraint.ConstraintLayout>

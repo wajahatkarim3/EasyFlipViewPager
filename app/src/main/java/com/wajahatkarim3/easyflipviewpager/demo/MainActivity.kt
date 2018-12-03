@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         radioGroupFlipAnimation = findViewById(R.id.rgFlipAnimation)
-        checkEnableScale = findViewById(R.id.checkEnableScale)
+        checkEnableScale = findViewById<CheckBox>(R.id.checkEnableScale)
 
         // Book Flip Transformer
         bookFlipTransformer.isEnableScale = true

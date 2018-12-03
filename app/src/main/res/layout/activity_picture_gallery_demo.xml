@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PictureGalleryDemoActivity"
     android:background="#dcdcdc"
-    android:padding="30dp">
+    android:padding="30dp"
+    tools:context=".PictureGalleryDemoActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/galleryViewPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/indicator"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"></android.support.v4.view.ViewPager>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"/>
 
 
 </RelativeLayout>
