@@ -10,8 +10,7 @@
         <img src="https://build.appcenter.ms/v0.1/apps/ffd5a8a1-b026-4466-9480-787e049f2f7a/branches/master/badge"/>
     </a>    
     <!-- Bintray -->
-    <a href="https://bintray.com/wajahatkarim3/EasyValidation/com.wajahatkarim3.EasyValidation.core/_latestVersion">
-        <img src="https://api.bintray.com/packages/wajahatkarim3/EasyValidation/com.wajahatkarim3.EasyValidation.core/images/download.svg"/>
+    <a href='https://bintray.com/wajahatkarim3/EasyFlipViewPager/com.wajahatkarim3.easyflipviewpager/_latestVersion'><img src='https://api.bintray.com/packages/wajahatkarim3/EasyFlipViewPager/com.wajahatkarim3.easyflipviewpager/images/download.svg'></a>
     </a>
     <!-- Arsenal -->
     <a href="https://android-arsenal.com/details/1/7109">
