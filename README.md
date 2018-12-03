@@ -64,7 +64,7 @@
 <br/>
 <br/>
 
-### 💻 Installation
+## 💻 Installation
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 
 ```groovy
