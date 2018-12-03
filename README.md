@@ -61,7 +61,7 @@
     contributors
   </a>
 </div>
-        <div></div>
+        <p></p>
 <br/>
 <br/>
 
