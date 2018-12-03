@@ -62,9 +62,7 @@
   </a>
 </div>
 <br/>
-        
-        Book Demo             |  Card Demo             |        Gallery Demo
-:-------------------------:|:-------------------------:|:-------------------------:
+
 ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/book_demo.gif)  |  ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/poker_demo.gif) | ![](https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/gallery_demo.gif)
         
 <br/>
