@@ -16,7 +16,6 @@
     <a href="https://www.producthunt.com/posts/easyflipviewpager">
         <img src='https://img.shields.io/badge/Available%20On-ProductHunt-orange.svg'>
     </a>
-    [![]()](https://www.producthunt.com/posts/medium-clap-button-in-android)
     <!-- Arsenal 
     <a href="https://android-arsenal.com/details/1/7109">
         <img src="https://img.shields.io/badge/Android%20Arsenal-Easy%20Validation-brightgreen.svg?style=flat"/>
