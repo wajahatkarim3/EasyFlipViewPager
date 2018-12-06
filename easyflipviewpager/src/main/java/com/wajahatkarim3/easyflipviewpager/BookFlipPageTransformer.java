@@ -12,13 +12,14 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+*/
+
 package com.wajahatkarim3.easyflipviewpager;
 
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.View;
-*/
 
 /**
  * A book based page flip animation PageTransformer implementation for ViewPager
