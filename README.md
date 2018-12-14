@@ -83,6 +83,10 @@ The article on how this library was created is now published. You can <a href="h
 ## 📱 Download Demo on Android
 Download the [APK file from here](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/EasyFlipViewPager-Demo.apk?raw=true) on your Android phone and enjoy the Demo App :)
 
+## 💥 Achievements
+* #1 on [Github Trending in Kotlin](https://github.com/trending/kotlin?since=daily) language on 14th December, 2018 
+* Mentioned in an [article about behind-the-scenes of this library](https://android.jlelse.eu/easyflipviewpager-the-flip-animations-for-your-viewpager-fd66b34f4703) on [AndroidPub](https://android.jlelse.eu/)
+
 ## 💻 Installation
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 
