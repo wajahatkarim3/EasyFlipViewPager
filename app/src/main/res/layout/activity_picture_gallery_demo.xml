@@ -8,13 +8,13 @@
     android:padding="30dp"
     tools:context=".PictureGalleryDemoActivity">
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/galleryViewPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/indicator"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"></android.support.v4.view.ViewPager>
+        android:layout_centerInParent="true"></androidx.viewpager.widget.ViewPager>
 
     <me.relex.circleindicator.CircleIndicator
         android:id="@+id/indicator"

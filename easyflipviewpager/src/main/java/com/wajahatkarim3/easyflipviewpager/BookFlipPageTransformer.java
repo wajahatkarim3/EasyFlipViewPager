@@ -16,9 +16,9 @@ limitations under the License.
 
 package com.wajahatkarim3.easyflipviewpager;
 
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewPager;
-import android.util.Log;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.ViewPager;
+
 import android.view.View;
 
 /**

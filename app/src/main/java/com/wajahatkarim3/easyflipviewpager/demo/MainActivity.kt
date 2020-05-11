@@ -1,16 +1,14 @@
 package com.wajahatkarim3.easyflipviewpager.demo
 
-import android.graphics.Color
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentPagerAdapter
-import android.support.v4.app.FragmentStatePagerAdapter
-import android.support.v4.view.PagerAdapter
-import android.support.v4.view.ViewPager
 import android.widget.CheckBox
 import android.widget.RadioGroup
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
+import androidx.viewpager.widget.PagerAdapter
+import androidx.viewpager.widget.ViewPager
 import com.wajahatkarim3.easyflipviewpager.BookFlipPageTransformer
 import com.wajahatkarim3.easyflipviewpager.CardFlipPageTransformer
 
@@ -29,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         radioGroupFlipAnimation = findViewById(R.id.rgFlipAnimation)
-        checkEnableScale = findViewById<CheckBox>(R.id.checkEnableScale)
+        checkEnableScale = findViewById(R.id.checkEnableScale)
 
         // Book Flip Transformer
         bookFlipTransformer.isEnableScale = true
@@ -40,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         cardFlipTransformer.flipOrientation = CardFlipPageTransformer.VERTICAL
 
         // Instantiate a ViewPager and a PagerAdapter.
-        mPager = findViewById<ViewPager>(R.id.pager)
+        mPager = findViewById(R.id.pager)
         mPagerAdapter = DemoPagerAdapter(supportFragmentManager)
         mPager.adapter = mPagerAdapter
         mPager.clipToPadding = false

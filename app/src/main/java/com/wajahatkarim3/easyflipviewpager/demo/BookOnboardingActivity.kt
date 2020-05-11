@@ -1,15 +1,13 @@
 package com.wajahatkarim3.easyflipviewpager.demo
 
-import android.graphics.Color
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentPagerAdapter
-import android.support.v4.view.PagerAdapter
-import android.support.v4.view.ViewPager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
+import androidx.viewpager.widget.PagerAdapter
+import androidx.viewpager.widget.ViewPager
 import com.wajahatkarim3.easyflipviewpager.BookFlipPageTransformer
-import com.wajahatkarim3.easyflipviewpager.CardFlipPageTransformer
 
 class BookOnboardingActivity : AppCompatActivity() {
 
@@ -21,7 +19,7 @@ class BookOnboardingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_book_onboarding)
 
         // Instantiate a ViewPager and a PagerAdapter.
-        mPager = findViewById<ViewPager>(R.id.pager)
+        mPager = findViewById(R.id.pager)
         mPagerAdapter = BookOnboardingPagerAdapter(supportFragmentManager)
         mPager.adapter = mPagerAdapter
         mPager.clipToPadding = true
