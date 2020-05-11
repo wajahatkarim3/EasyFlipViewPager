@@ -5,7 +5,9 @@ The article on how this library was created is now published. You can <a href="h
 <div align="center"><img src="https://raw.githubusercontent.com/wajahatkarim3/EasyFlipViewPager/master/Art/easyflipviewpager_logo.png"/></div>
 <h2 align="center"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fwajahatkarim3%2FEasyFlipViewPager&text=Create%20amazing%20book%20or%20card%20flipping%20animations%20for%20your%20ViewPager%20in%20Android%20with%20these%202-lines%20of%20code%20through%20EasyFlipViewPager&hashtags=android%2C%20kotlin%2C%20java%2C%20opensource%2C%20programming">
         <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"/>
-    </a></h2>
+    </a> <a href="https://twitter.com/WajahatKarim">
+        <img src="https://img.shields.io/twitter/follow/WajahatKarim?style=social"/>
+    </a></h2> 
 
 <br/>
 <div align="center">
@@ -88,17 +90,20 @@ Download the [APK file from here](https://github.com/wajahatkarim3/EasyFlipViewP
 * Mentioned in an [article about behind-the-scenes of this library](https://android.jlelse.eu/easyflipviewpager-the-flip-animations-for-your-viewpager-fd66b34f4703) on [AndroidPub](https://android.jlelse.eu/)
 
 ## 💻 Installation
+
+>> **Since the [v1.2.0](https://github.com/wajahatkarim3/EasyFlipViewPager/releases/tag/1.2.0), all new updates will only support `androidx` widgets. If you want to use `android.support`, then use [v1.0.0](https://github.com/wajahatkarim3/EasyFlipViewPager/releases/tag/1.0.0).**
+
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 
 ```groovy
-   implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.0.0'
+   implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.2.0'
 ```
 Or add `EasyFlipViewPager` as a new dependency inside your `pom.xml`
 ```xml
 <dependency>
   <groupId>com.wajahatkarim3.easyflipviewpager</groupId>
   <artifactId>easyflipviewpager</artifactId>
-  <version>1.0.0</version>
+  <version>1.2.0</version>
   <type>pom</type>
 </dependency>
 ```
