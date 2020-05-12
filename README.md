@@ -96,51 +96,53 @@ Download the [APK file from here](https://github.com/wajahatkarim3/EasyFlipViewP
 Add `EasyFlipViewPager` in app's ```build.gradle``` file:
 
 ```groovy
-   implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.2.0'
+   implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:2.0.0'
 ```
 Or add `EasyFlipViewPager` as a new dependency inside your `pom.xml`
 ```xml
 <dependency>
   <groupId>com.wajahatkarim3.easyflipviewpager</groupId>
   <artifactId>easyflipviewpager</artifactId>
-  <version>1.2.0</version>
+  <version>2.0.0</version>
   <type>pom</type>
 </dependency>
 ```
 ## ❓ Usage
+
+### ViewPager
 Just create an object of either [`BookFlipPageTransformer`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/BookFlipPageTransformer.java) or [`CardFlipPageTransformer`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/CardFlipPageTransformer.java) and assign it to your `ViewPager` object by calling `ViewPager#setPageTransformer(true, myTransformerObject)`.
+
+### ViewPager2
+Use these new `PageTransformer` classes for `ViewPager2` instance: [`BookFlipPageTransformer2`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/BookFlipPageTransformer2.java) or [`CardFlipPageTransformer2`](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/easyflipviewpager/src/main/java/com/wajahatkarim3/easyflipviewpager/CardFlipPageTransformer2.java) 
 
 
 ### 💳 Card Flip Example
 ```java
-// Get ViewPager and Set Adapter
-myViewPager = findViewById(R.id.myViewPager);
+// Get ViewPager2 and Set Adapter
+myViewPager2 = findViewById(R.id.myViewPager2);
 pagerAdapter = new MyPagerAdapter(this);
-myViewPager.setAdapter(pagerAdapter);
+myViewPager2.setAdapter(pagerAdapter);
 
 // Create an object of page transformer
-CardFlipPageTransformer cardFlipPageTransformer = new CardFlipPageTransformer();
+CardFlipPageTransformer2 cardFlipPageTransformer = new CardFlipPageTransformer2();
 
 // Enable / Disable scaling while flipping. If false, then card will only flip as in Poker card example. 
 // Otherwise card will also scale like in Gallery demo. By default, its true.
 cardFlipPageTransformer.setScalable(false);
 
-// Set orientation. Either horizontal or vertical. By default, its vertical.
-cardFlipPageTransformer.setFlipOrientation(CardFlipPageTransformer.VERTICAL);
-
 // Assign the page transformer to the ViewPager.
-myViewPager.setPageTransformer(true, cardFlipPageTransformer);
+myViewPager2.setPageTransformer(true, cardFlipPageTransformer);
 ```
 
 ### 📄 Book Flip Example
 ```java
-// Get ViewPager and Set Adapter        
-myViewPager = findViewById(R.id.myViewPager);
-pagerAdapter = new MyPagerAdapter(this);
-myViewPager.setAdapter(pagerAdapter);
+// Get ViewPager2 and Set Adapter        
+myViewPager2 = findViewById(R.id.myViewPager2);
+pagerAdapter2 = new MyPagerAdapter(this);
+myViewPager2.setAdapter(pagerAdapter);
 
 // Create an object of page transformer
-BookFlipPageTransformer bookFlipPageTransformer = new BookFlipPageTransformer();
+BookFlipPageTransformer2 bookFlipPageTransformer = new BookFlipPageTransformer2();
 
 // Enable / Disable scaling while flipping. If true, then next page will scale in (zoom in). By default, its true.
 bookFlipPageTransformer.setEnableScale(true);
@@ -148,35 +150,23 @@ bookFlipPageTransformer.setEnableScale(true);
 // The amount of scale the page will zoom. By default, its 5 percent.
 bookFlipPageTransformer.setScaleAmountPercent(10f);
 
-// Assign the page transformer to the ViewPager.
-myViewPager.setPageTransformer(true, bookFlipPageTransformer);
+// Assign the page transformer to the ViewPager2.
+myViewPager2.setPageTransformer(true, bookFlipPageTransformer);
 ```
-
-## 💰 Donations
-
-This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated (and I love food, coffee and beer). Thank you!
-
-**PayPal**
-
-* **[Donate $5](https://www.paypal.me/WajahatKarim/5)**: Thank's for creating this project, here's a tea (or some juice) for you!
-* **[Donate $10](https://www.paypal.me/WajahatKarim/10)**: Wow, I am stunned. Let me take you to the movies!
-* **[Donate $15](https://www.paypal.me/WajahatKarim/15)**: I really appreciate your work, let's grab some lunch!
-* **[Donate $25](https://www.paypal.me/WajahatKarim/25)**: That's some awesome stuff you did right there, dinner is on me!
-* **[Donate $50](https://www.paypal.me/WajahatKarim/50)**: I really really want to support this project, great job!
-* **[Donate $100](https://www.paypal.me/WajahatKarim/100)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
-* **[Donate $2799](https://www.paypal.me/WajahatKarim/2799)**: Go buddy, buy Macbook Pro for yourself!
-
-Of course, you can also choose what you want to donate, all donations are awesome!
 
 ## 👨 Developed By
 
-```
-Wajahat Karim
-```
-- Website (http://wajahatkarim.com)
-- Twitter (http://twitter.com/wajahatkarim)
-- Medium (http://www.medium.com/@wajahatkarim3)
-- LinkedIn (http://www.linkedin.com/in/wajahatkarim)
+<a href="https://twitter.com/WajahatKarim" target="_blank">
+  <img src="https://avatars1.githubusercontent.com/u/8867121?s=460&v=4" width="70" align="left">
+</a>
+
+**Wajahat Karim**
+
+[![Twitter](https://img.shields.io/badge/-twitter-grey?logo=twitter)](https://twitter.com/WajahatKarim)
+[![Web](https://img.shields.io/badge/-web-grey?logo=appveyor)](https://wajahatkarim.com/)
+[![Medium](https://img.shields.io/badge/-medium-grey?logo=medium)](https://medium.com/@wajahatkarim3)
+[![Linkedin](https://img.shields.io/badge/-linkedin-grey?logo=linkedin)](https://www.linkedin.com/in/wajahatkarim/)
+
 
 ## 👍 How to Contribute
 1. Fork it
@@ -187,7 +177,7 @@ Wajahat Karim
 
 ## 📃 License
 
-    Copyright 2018 Wajahat Karim
+    Copyright 2020 Wajahat Karim
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
