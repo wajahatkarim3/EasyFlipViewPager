@@ -78,13 +78,15 @@ class MainActivity : AppCompatActivity() {
             val titles = arrayOf(
                     "Book Onboarding",
                     "Poker Card",
-                    "Pakistan Gallery"
+                    "Pakistan Gallery",
+                    "ViewPager2 Demo"
             )
 
             val imageIds = intArrayOf(
                     R.drawable.books_snap,
                     R.drawable.poker_snap,
-                    R.drawable.gallery_snap
+                    R.drawable.gallery_snap,
+                    R.drawable.viewpager2_snap
             )
 
             for (i in 0 until imageIds.size)

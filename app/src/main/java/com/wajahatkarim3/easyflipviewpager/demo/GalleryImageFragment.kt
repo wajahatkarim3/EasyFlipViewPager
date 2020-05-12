@@ -57,6 +57,7 @@ class GalleryImageFragment : Fragment() {
                     R.drawable.books_snap -> startActivity(Intent(context, BookOnboardingActivity::class.java))
                     R.drawable.gallery_snap -> startActivity(Intent(context, PictureGalleryDemoActivity::class.java))
                     R.drawable.poker_snap -> startActivity(Intent(context, PokerCardDemoActivity::class.java))
+                    R.drawable.viewpager2_snap -> startActivity(Intent(context, ViewPager2DemoActivity::class.java))
                 }
             }
 

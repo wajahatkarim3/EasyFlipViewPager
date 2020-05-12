@@ -22,6 +22,8 @@
         <activity android:name=".PokerCardDemoActivity"></activity>
         <activity android:name=".PictureGalleryDemoActivity">
         </activity>
+        <activity android:name=".ViewPager2DemoActivity">
+        </activity>
     </application>
 
 </manifest>
