@@ -83,7 +83,7 @@ The article on how this library was created is now published. You can <a href="h
 [![Demo Video](https://img.youtube.com/vi/ibuHv06wdhs/0.jpg)](https://www.youtube.com/watch?v=ibuHv06wdhs)
 
 ## 📱 Download Demo on Android
-Download the [APK file from here](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/EasyFlipViewPager-Demo.apk?raw=true) on your Android phone and enjoy the Demo App :)
+Download the [APK file from here](https://github.com/wajahatkarim3/EasyFlipViewPager/blob/master/EasyFlipViewPagerDemo-2.0.0.apk?raw=true) on your Android phone and enjoy the Demo App :)
 
 ## 💥 Achievements
 * #1 on [Github Trending in Kotlin](https://github.com/trending/kotlin?since=daily) language on 14th December, 2018 
@@ -130,8 +130,8 @@ CardFlipPageTransformer2 cardFlipPageTransformer = new CardFlipPageTransformer2(
 // Otherwise card will also scale like in Gallery demo. By default, its true.
 cardFlipPageTransformer.setScalable(false);
 
-// Assign the page transformer to the ViewPager.
-myViewPager2.setPageTransformer(true, cardFlipPageTransformer);
+// Assign the page transformer to the ViewPager2.
+myViewPager2.setPageTransformer(cardFlipPageTransformer);
 ```
 
 ### 📄 Book Flip Example
@@ -151,7 +151,7 @@ bookFlipPageTransformer.setEnableScale(true);
 bookFlipPageTransformer.setScaleAmountPercent(10f);
 
 // Assign the page transformer to the ViewPager2.
-myViewPager2.setPageTransformer(true, bookFlipPageTransformer);
+myViewPager2.setPageTransformer(bookFlipPageTransformer);
 ```
 
 ## 👨 Developed By
