@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -17,12 +17,13 @@
         </activity>
         <activity
             android:name=".BookOnboardingActivity"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
-        <activity android:name=".PokerCardDemoActivity"></activity>
-        <activity android:name=".PictureGalleryDemoActivity">
+        <activity android:name=".PokerCardDemoActivity" android:exported="true"></activity>
+        <activity android:name=".PictureGalleryDemoActivity" android:exported="true">
         </activity>
-        <activity android:name=".ViewPager2DemoActivity">
+        <activity android:name=".ViewPager2DemoActivity" android:exported="true">
         </activity>
     </application>
 

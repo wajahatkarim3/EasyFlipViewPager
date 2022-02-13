@@ -12,15 +12,7 @@
         android:id="@+id/galleryViewPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/indicator"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"></androidx.viewpager.widget.ViewPager>
-
-    <me.relex.circleindicator.CircleIndicator
-        android:id="@+id/indicator"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_alignParentBottom="true"/>
-
 
 </RelativeLayout>

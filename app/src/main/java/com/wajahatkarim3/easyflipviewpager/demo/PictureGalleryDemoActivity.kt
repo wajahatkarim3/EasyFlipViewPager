@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.wajahatkarim3.easyflipviewpager.CardFlipPageTransformer
-import me.relex.circleindicator.CircleIndicator
 
 class PictureGalleryDemoActivity : AppCompatActivity() {
 
@@ -21,9 +20,6 @@ class PictureGalleryDemoActivity : AppCompatActivity() {
         galleryViewPager = findViewById(R.id.galleryViewPager)
         pagerAdapter = GalleryPagerAdapter(supportFragmentManager)
         galleryViewPager.adapter = pagerAdapter
-
-        var pageIndicator = findViewById<CircleIndicator>(R.id.indicator)
-        pageIndicator.setViewPager(galleryViewPager)
 
         var pageTransformer = CardFlipPageTransformer()
         pageTransformer.flipOrientation = CardFlipPageTransformer.VERTICAL
